@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Generator AI</title>
+    <link rel="stylesheet" href="password.css" class="css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Generator AI</h1>
+      <p>Select the type of password you want to generate:</p>
+      <div class="password-types">
+        <input type="radio" name="password-type" value="normal" checked> Normal Password<br>
+        <input type="radio" name="password-type" value="strong"> Strong Password<br>
+        <input type="radio" name="password-type" value="funny"> Funny Password<br>
+      </div>
+      <button id="generate-btn">Generate Password</button>
+      <input type="text" id="password-field" readonly>
+      <button id="copy-btn" disabled>Copy Password</button>
+    </div>
+  </body>
+  <script src="password.js"></script>
+</html>
